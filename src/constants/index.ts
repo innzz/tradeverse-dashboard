@@ -32,3 +32,37 @@ export const sidebarLinks = [
         label: "Customer Support",
     },
 ];
+
+
+export const filterOptions = [
+    {
+        label: "5M",
+        increaseBy: "minutes",
+        increaseNumber: 5
+    },
+    {
+        label: "15M",
+        increaseBy: "minutes",
+        increaseNumber: 15
+    },
+    {
+        label: "30M",
+        increaseBy: "minutes",
+        increaseNumber: 30
+    },
+    {
+        label: "1H",
+        increaseBy: "hours",
+        increaseNumber: 1
+    },
+    {
+        label: "2H",
+        increaseBy: "hours",
+        increaseNumber: 2
+    },
+    {
+        label: "4H",
+        increaseBy: "hours",
+        increaseNumber: 4
+    },
+];
