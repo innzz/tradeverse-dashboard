@@ -11,7 +11,7 @@ const Home = () => {
           <NewsAndDataFlowChart />
         </div>
         <div className="w-[30%] h-full">
-          <AverageScoreOverview />
+          <AverageScoreOverview score="75" />
         </div>
       </div>
       <div className="flex items-center h-[50%] gap-[15px]">
@@ -19,7 +19,7 @@ const Home = () => {
           <RefinedNewsAndDataFlow />
         </div>
         <div className="w-[30%] h-full">
-          <TopFocusTopics />
+          <TopFocusTopics top={10} />
         </div>
       </div>
     </section>

@@ -5,3 +5,9 @@ export type INavLink = {
     route: string;
     label: string;
   };
+
+  export type IFocusTopic = {
+    srNo: number,
+    topicName: string,
+    score: number
+  };

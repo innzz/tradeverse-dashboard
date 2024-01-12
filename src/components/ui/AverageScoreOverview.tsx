@@ -1,9 +1,9 @@
 import { MdKeyboardArrowRight } from "react-icons/md";
 
-const AverageScoreOverview = ({ score = "75" }) => {
+const AverageScoreOverview = ({ score = "75" }: { score: string }) => {
 
     const scoreProgressBarClassNames = `flex justify-center items-center w-[200px] h-[200px] rounded-[50%] bg-[radial-gradient(closest-side,white_79%,transparent_80%_100%),conic-gradient(#25f9c6_75%,#2ca5ff_0)]`;
-    
+
 
     return (
         <div className="border-[1px] rounded-md h-full w-full p-[10px] flex flex-col gap-[30px]">
