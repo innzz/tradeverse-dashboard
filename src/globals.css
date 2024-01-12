@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .gray-text {
+    @apply text-[16px] font-[500] text-gray-400;
+  }
+}
+
+@layer components {
+  /* Sidebar stylings */
+  .nav-link {
+    @apply flex items-center gap-[10px] px-[15px] py-[15px] rounded-md hover:bg-[#dff3ff] hover:text-black;
+  }
+  .nav-link > p {
+    @apply text-[18px] font-[500];
+  }
+  .nav-link:hover > svg {
+    color: #40b7d5 !important;
+  }
+}
