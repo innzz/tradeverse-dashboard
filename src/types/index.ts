@@ -11,3 +11,14 @@ export type INavLink = {
     topicName: string,
     score: number
   };
+
+  export type INews = {
+    type: {
+      name: string,
+      color: string
+    },
+    description: string,
+    score: number,
+    impact: string,
+    probability: string
+  };

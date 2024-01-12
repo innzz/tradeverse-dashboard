@@ -3,7 +3,6 @@ import focusTopics from '../../lib/dummyData/focusTips.json';
 import { IFocusTopic } from '../../types';
 
 const TopFocusTopics = ({ top }: { top: number }) => {
-  console.log("focus topics", focusTopics)
   return (
     <div className="border-[1px] rounded-md h-full w-full p-[10px] flex flex-col gap-[10px]">
       <h2 className="font-[500] text-[22px]">Top {top} Focus Tips</h2>

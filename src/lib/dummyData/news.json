@@ -1,0 +1,52 @@
+[
+    {
+        "type": {
+            "color": "yellow",
+            "name": "ERU"
+        },
+        "description": "The Euro has steadied against the US Dollar on Thursday as the market ponders the path of Fed rate hikes",
+        "score": 1,
+        "impact": "Neutral",
+        "probability": "High"
+    },
+    {
+        "type": {
+            "color": "blue",
+            "name": "INR"
+        },
+        "description": "The Euro has steadied against the US Dollar on Thursday as the market ponders the path of Fed rate hikes",
+        "score": 1,
+        "impact": "High",
+        "probability": "High"
+    },
+    {
+        "type": {
+            "color": "brown",
+            "name": "CAD"
+        },
+        "description": "The Euro has steadied against the US Dollar on Thursday as the market ponders the path of Fed rate hikes",
+        "score": 1,
+        "impact": "Medium",
+        "probability": "High"
+    },
+    {
+        "type": {
+            "color": "brown",
+            "name": "CAD"
+        },
+        "description": "The Euro has steadied against the US Dollar on Thursday as the market ponders the path of Fed rate hikes",
+        "score": 1,
+        "impact": "Low",
+        "probability": "High"
+    },
+    {
+        "type": {
+            "color": "green",
+            "name": "OIL"
+        },
+        "description": "The Euro has steadied against the US Dollar on Thursday as the market ponders the path of Fed rate hikes",
+        "score": 1,
+        "impact": "Neutral",
+        "probability": "High"
+    }
+]
