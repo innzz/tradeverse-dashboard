@@ -9,7 +9,7 @@ const RootLayout = () => {
             <Sidebar />
             <section className="flex flex-col h-[100vh] py-[35px] pl-[55px] pr-[25px] gap-[20px] flex-1">
                 <Topbar />
-                <div>
+                <div className="flex-1">
                     <Outlet />
                 </div>
             </section>

@@ -8,7 +8,7 @@ const Topbar = () => {
   const curentLicense = ["USD/CAD", "AUD/USD"];
 
   return (
-    <section className="flex">
+    <section className="flex gap-[15px]">
       <div className="w-[70%] flex flex-col gap-[15px]">
         <SearchInput />
         <div className="flex items-center gap-[20px]">
