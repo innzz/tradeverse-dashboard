@@ -12,7 +12,7 @@ const Sidebar = () => {
         <div>
           {sidebarLinks.map(({ Logo, route, label }: INavLink) => {
             const isActive = pathname === route;
-            return <NavLink className={`${isActive ? "text-black bg-[#dff3ff] " : "text-gray-400 "} nav-link`} to={route}><Logo size={25} color={isActive ? "#40b7d5" : "#bfbfbf"} /> <p>{label}</p> </NavLink>
+            return <NavLink key={label} className={`${isActive ? "text-black bg-[#dff3ff] " : "text-gray-400 "} nav-link`} to={route}><Logo size={25} color={isActive ? "#40b7d5" : "#bfbfbf"} /> <p>{label}</p> </NavLink>
           }
           )}
         </div>

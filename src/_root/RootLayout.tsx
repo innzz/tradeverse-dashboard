@@ -7,12 +7,12 @@ const RootLayout = () => {
     return (
         <div className="flex">
             <Sidebar />
-            <div>
+            <section className="flex flex-col h-[100vh] py-[35px] pl-[55px] pr-[25px] gap-[20px] flex-1">
                 <Topbar />
-                <section>
+                <div>
                     <Outlet />
-                </section>
-            </div>
+                </div>
+            </section>
         </div>
     )
 }
