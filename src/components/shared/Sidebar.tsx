@@ -5,7 +5,7 @@ import { INavLink } from "../../types"
 const Sidebar = () => {
   const { pathname } = useLocation();
   return (
-    <section className="w-[330px] shadow-[5px_0px_35px_-10px_rgba(0,0,0,0.3)] h-[100vh]">
+    <div className="w-[330px] shadow-[5px_0px_35px_-10px_rgba(0,0,0,0.3)] h-[100vh]">
       <img src="/logos/7252830.jpg" alt="company logo" className="w-[240px] h-[140px]" />
       <div className="p-[20px] flex flex-col gap-[10px]">
         <p className="gray-text px-[15px]">MAIN MENU</p>
@@ -17,7 +17,7 @@ const Sidebar = () => {
           )}
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 
