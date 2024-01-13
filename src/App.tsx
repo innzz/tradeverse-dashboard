@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./globals.css";
 import RootLayout from "./_root/RootLayout";
-import { Home } from "./_root/pages";
+import { AlertCentral, CustomerSupport, Home, Indicators, OneScore } from "./_root/pages";
 
 function App() {
 
@@ -9,6 +9,10 @@ function App() {
     <Routes>
       <Route element={<RootLayout />}>
         <Route index element={<Home />} />
+        <Route path={"/indicators"} element={<Indicators />} />
+        <Route path={"/one-score"} element={<OneScore />} />
+        <Route path={"/alert-central"} element={<AlertCentral />} />
+        <Route path={"/customer-support"} element={<CustomerSupport />} />
       </Route>
     </Routes>
   )
