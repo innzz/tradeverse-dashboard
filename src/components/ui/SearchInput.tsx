@@ -18,7 +18,7 @@ const SearchInput = () => {
         }} >
             <IoSearchSharp size={20} />
             <div className="flex-1 flex items-center pl-[10px]">
-                <input ref={inputRef} type="text" placeholder="Search your question here or ask" className="outline-none border-none" onChange={(e) => {
+                <input ref={inputRef} type="text" name="search" placeholder="Search your question here or ask" className="outline-none border-none" onChange={(e) => {
                     setSearchText(e.target.value)
                     if (tiiaRef.current !== null && e.target.value.length > 0) {
                         tiiaRef.current.style.display = "none"
